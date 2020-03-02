@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name keyboard_parts)(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/KB_Library/keyboard_parts.pretty-master")(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/KB_Library/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name kicad_lib_tmk-master)(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/KB_Library/kicad_lib_tmk-master")(options "")(descr ""))
+  (lib (name SparkFun-KiCad-Libraries-master)(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/KB_Library/SparkFun-KiCad-Libraries-master")(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/KB_Library/Keebio-Parts.pretty-master")(options "")(descr ""))
+  (lib (name "Graphic LIbrary")(type KiCad)(uri "/Users/burso/Desktop/KiCad Projects/Graphic LIbrary")(options "")(descr ""))
+)
