@@ -23,15 +23,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0001
 #define MANUFACTURER 	NoEyesJustFun
 #define PRODUCT 		Cinderblock
-#define DESCRIPTION 	Equal Staggered Keyboard
+#define DESCRIPTION 	70% Equal Staggered Keyboard
 
 /* MATRIX SIZE */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 
+#define MATRIX_ROW_PINS { D1, D0, D4, C6, D7 }
+#define MATRIX_COL_PINS { E6, B4, B5, B7, C5, D7, F1, F0, B6, B1, F7, F6, F5, F4 }
+
 #define DIODE_DIRECTION ROW2COL  
 
 /* WS2812 RGB LED */
-//#define RGB_DI_PIN D3
-//#define RGBLIGHT_ANIMATIONS
-//#define RGBLED_NUM 12               
+#define RGB_DI_PIN D3
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 12               
